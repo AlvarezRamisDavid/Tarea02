@@ -1,0 +1,108 @@
+body {
+	background:#D8D8D8;
+	font-family: Arial;
+}
+a:link { 
+  display: block;
+  line-height: 50px;
+  text-decoration: none;
+  color: white; 
+}
+
+a:hover {
+	display: block;
+  line-height: 50px;
+  text-decoration: none;
+  color: blue; 
+}
+
+h1 {
+  color: blue;
+  font-family: Arial;
+  font-size: 60px;
+  text-align: center;
+}
+h2 {
+  color: blue;
+  font-family: Arial;
+  font-size: 40px;
+  text-align: center;
+}
+h3 {
+  color: blue;
+  font-family: Arial;
+  font-size: 30px;
+  text-align: left;
+}
+h4 {
+  color: blue;
+  font-family: Arial;
+  font-size: 15px;
+  text-align: left;
+}
+h5 {
+  color: blue;
+  font-family: Arial;
+  font-size: 15px;
+  text-align: left;
+}
+h6 {
+  font-family: Arial;
+  text-align: center;
+}
+table, th, td {
+	font-family: Arial;
+	text-align: center;
+	border: solid 1px rgba(0, 178, 255, 1); 
+	border-collapse: separate;
+	border-radius: 20px;
+	outline-style: initial;
+    outline-color: invert;
+	margin: auto;
+	padding: 20px 20px 20px 20px;
+	
+}
+
+
+tr td, th { 
+    border-top-right-radius: 0;               
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0; 
+    border-bottom-right-radius: 0; 
+}
+th:first-child { 
+    border-top-left-radius: 15px; 
+}
+th:last-child {   
+    border-top-right-radius: 15px; 
+}
+tr:last-child td:first-child { 
+    border-bottom-left-radius: 15px; 
+}
+tr:last-child td:last-child { 
+    border-bottom-right-radius: 15px; 
+}
+
+p, li {
+  font-family: Arial;
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+.video-responsive {
+position: relative;
+padding-bottom: 56.25%; /* 16/9 ratio */
+padding-top: 30px; /* IE6 workaround*/
+height: 0;
+overflow: hidden;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
